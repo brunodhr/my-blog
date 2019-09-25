@@ -1,14 +1,21 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
+    author: `@brunodhr`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `brunofilipe01`,
     },
   },
   plugins: [
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-feed`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -45,15 +52,12 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -66,8 +70,6 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`,
       },
     },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
