@@ -11,7 +11,11 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Kodchasan', sans-serif;
     color:#fff;
   }
-  
+
+  html {
+    overflow-y:unset;
+  }
+
   body {
     font-size: 14px;
   }
@@ -25,6 +29,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0 auto;
     list-style-type: none;
   }
+
   p {
     margin: 0;
   }
