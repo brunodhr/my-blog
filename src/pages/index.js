@@ -15,6 +15,7 @@ const BlogIndex = ({ data }) => {
       <Bio />
       <div
         style={{
+          margin: `20px 0`,
           flexWrap: `wrap`,
           width: `100%`,
           display: `flex`,
