@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   padding: 10px;
-  width: 25%;
+  width: 50%;
   @media (min-width: 320px) and (max-width: 425px) {
     width: 50%;
   }
