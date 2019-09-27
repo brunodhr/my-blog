@@ -1,5 +1,5 @@
 import React from 'react'
-
+import GlobalStyle from '../../styles'
 import Header from 'components/Header'
 import Footer from 'components/Footer'
 
@@ -7,11 +7,14 @@ import { Wrapper, Body } from './styles'
 
 const Layout = ({ children }) => {
   return (
-    <Wrapper>
-      <Header />
-      <Body>{children}</Body>
-      <Footer />
-    </Wrapper>
+    <>
+      <GlobalStyle />
+      <Wrapper>
+        <Header />
+        <Body>{children}</Body>
+        <Footer />
+      </Wrapper>
+    </>
   )
 }
 

@@ -1,6 +1,5 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import GlobalStyle from '../styles'
 
 import Bio from 'components/Bio'
 import Layout from 'components/Layout'
@@ -13,7 +12,6 @@ const Post = ({ data, pageContext }) => {
   const { previous, next } = pageContext
 
   return (
-        <GlobalStyle />
     <Layout>
       <SEO
         title={post.frontmatter.title}
