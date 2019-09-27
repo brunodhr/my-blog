@@ -8,54 +8,49 @@ import SEO from 'components/Seo'
 
 import * as S from './styles'
 
-class BlogPostTemplate extends React.Component {
-  render() {
-    const post = this.props.data.markdownRemark
-    const { previous, next } = this.props.pageContext
+const Post = ({ data, pageContext }) => {
+  const post = data.markdownRemark
+  const { previous, next } = pageContext
 
-    return (
-      <>
+  return (
         <GlobalStyle />
-        <Layout>
-          <SEO
-            title={post.frontmatter.title}
-            description={post.frontmatter.description || post.excerpt}
-          />
-          <article>
-            <header>
-              <h1>{post.frontmatter.title}</h1>
-              <p>{post.frontmatter.date}</p>
-            </header>
-            <section dangerouslySetInnerHTML={{ __html: post.html }} />
-            <hr />
-            <footer>
-              <Bio />
-            </footer>
-          </article>
+    <Layout>
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description || post.excerpt}
+      />
+      <article>
+        <header>
+          <h1>{post.frontmatter.title}</h1>
+          <p>{post.frontmatter.date}</p>
+        </header>
+        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+      </article>
 
-          <S.Nav>
-            <S.Arrows>
-              {previous && (
-                <S.StyledLink to={previous.fields.slug} rel='prev'>
-                  ← {previous.frontmatter.title}
-                </S.StyledLink>
-              )}
-            </S.Arrows>
-            <S.Arrows>
-              {next && (
-                <S.StyledLink to={next.fields.slug} rel='next'>
-                  {next.frontmatter.title} →
-                </S.StyledLink>
-              )}
-            </S.Arrows>
-          </S.Nav>
-        </Layout>
-      </>
-    )
-  }
+      <hr />
+
+      <S.Nav>
+        <S.Arrows>
+          {previous && (
+            <S.StyledLink to={previous.fields.slug} rel='prev'>
+              ← {previous.frontmatter.title}
+            </S.StyledLink>
+          )}
+        </S.Arrows>
+        <S.Arrows>
+          {next && (
+            <S.StyledLink to={next.fields.slug} rel='next'>
+              {next.frontmatter.title} →
+            </S.StyledLink>
+          )}
+        </S.Arrows>
+      </S.Nav>
+      <Bio />
+    </Layout>
+  )
 }
 
-export default BlogPostTemplate
+export default Post
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
