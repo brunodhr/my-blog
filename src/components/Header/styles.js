@@ -10,6 +10,10 @@ to {
 `
 
 export const Menu = styled.header`
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: #505050;
   display: flex;
   justify-content: space-between;
