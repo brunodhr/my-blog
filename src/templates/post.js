@@ -26,20 +26,34 @@ const Post = ({ data, pageContext }) => {
       </article>
 
       <hr />
-
+      <span>Outros posts</span>
       <S.Nav>
         <S.Arrows>
           {previous && (
-            <S.StyledLink to={previous.fields.slug} rel='prev'>
-              ← {previous.frontmatter.title}
-            </S.StyledLink>
+            <S.Link
+              to={previous.fields.slug}
+              cover
+              direction='down'
+              duration={1}
+              rel='prev'
+              bg={'#505050'}
+            >
+              {previous.frontmatter.title}
+            </S.Link>
           )}
         </S.Arrows>
         <S.Arrows>
           {next && (
-            <S.StyledLink to={next.fields.slug} rel='next'>
-              {next.frontmatter.title} →
-            </S.StyledLink>
+            <S.Link
+              to={next.fields.slug}
+              cover
+              direction='down'
+              duration={1}
+              rel='next'
+              bg={'#505050'}
+            >
+              {next.frontmatter.title}
+            </S.Link>
           )}
         </S.Arrows>
       </S.Nav>
