@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/brunodhr/my-blog/compare/v0.1.2...v0.1.3) (2019-09-30)
+
+
+### Bug Fixes
+
+* **Post:** responsive mobile/tablet layout ([af236d2](https://github.com/brunodhr/my-blog/commit/af236d2))
+* rm scrollbar on html ([00efd2e](https://github.com/brunodhr/my-blog/commit/00efd2e))
+
+
+### Features
+
+* **Index:** insert margin on Posts wrapper ([39a4384](https://github.com/brunodhr/my-blog/commit/39a4384))
+
 ### [0.1.2](https://github.com/brunodhr/my-blog/compare/v0.1.1...v0.1.2) (2019-09-26)
 
 
