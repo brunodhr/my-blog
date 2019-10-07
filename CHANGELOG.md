@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/brunodhr/my-blog/compare/v0.1.3...v0.1.4) (2019-10-07)
+
+
+### Features
+
+* **Header:** changed link to transition link ([435f549](https://github.com/brunodhr/my-blog/commit/435f549))
+* **Header:** fixed header on top ([a13206b](https://github.com/brunodhr/my-blog/commit/a13206b))
+* **Layout:** add TransitionPortal to keep header on top ([4f7b9e6](https://github.com/brunodhr/my-blog/commit/4f7b9e6))
+* **Link:** add Transition-link component ([59113ee](https://github.com/brunodhr/my-blog/commit/59113ee))
+* **Post:** add Link component to transition on post template  ([336acb2](https://github.com/brunodhr/my-blog/commit/336acb2))
+* **Post:** changed Link component ([a7e518e](https://github.com/brunodhr/my-blog/commit/a7e518e))
+* **Post:** styled new component Link ([ba2fd3a](https://github.com/brunodhr/my-blog/commit/ba2fd3a))
+
 ### [0.1.3](https://github.com/brunodhr/my-blog/compare/v0.1.2...v0.1.3) (2019-09-30)
 
 ### Bug Fixes
