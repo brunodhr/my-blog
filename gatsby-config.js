@@ -9,14 +9,6 @@ module.exports = {
     },
   },
   plugins: [
-    `gatsby-plugin-transition-link`,
-    `gatsby-plugin-styled-components`,
-    `gatsby-plugin-netlify-cms`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-feed`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -71,5 +63,13 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-transition-link`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-feed`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
   ],
 }
