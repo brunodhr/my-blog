@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/brunodhr/my-blog/compare/v0.1.5...v0.1.6) (2019-10-10)
+
+
+### Bug Fixes
+
+* **Header:** add z-index to keep Header above content ([ce06d74](https://github.com/brunodhr/my-blog/commit/ce06d74))
+* **Header:** changed place Logo to Github ([891a5dd](https://github.com/brunodhr/my-blog/commit/891a5dd))
+
 ### [0.1.5](https://github.com/brunodhr/my-blog/compare/v0.1.4...v0.1.5) (2019-10-10)
 
 
