@@ -17,7 +17,7 @@ export const Menu = styled.header`
   right: 0;
   background-color: #505050;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0 20%;
   @media (min-width: 320px) and (max-width: 425px) {
@@ -33,19 +33,11 @@ export const Logo = styled.svg`
   height: 80px;
   transition: 0.3s;
   opacity: 0.5;
+  animation: ${rotate} infinite 20s linear;
+  fill: rgb(97, 219, 251);
   &:hover {
     opacity: 1;
   }
-`
-
-export const Github = styled(Logo)`
-  animation: ${rotate} infinite 20s linear;
-  fill: rgb(97, 219, 251);
-`
-
-export const Gatsby = styled(Logo)`
-  width: 150px;
-  fill: #639;
 `
 
 export const Link = styled.a``
