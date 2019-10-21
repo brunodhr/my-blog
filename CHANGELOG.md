@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/brunodhr/my-blog/compare/v0.1.4...v0.1.7) (2019-10-21)
+
+
+### Features
+
+* **Footer:** add Github link ([dd0c62a](https://github.com/brunodhr/my-blog/commit/dd0c62ab68a227c52e44abc646d70aa24072f84b))
+* **Footer:** add space in Gatsby box ([270ee0d](https://github.com/brunodhr/my-blog/commit/270ee0d33658707685bad3dd99c5487452cca324))
+
+
+### Bug Fixes
+
+* **Header:** add z-index to keep Header above content ([ce06d74](https://github.com/brunodhr/my-blog/commit/ce06d742ea40f508fb3177212366700992212508))
+* **Header:** changed place Logo to Github ([891a5dd](https://github.com/brunodhr/my-blog/commit/891a5dd2f16121a9e62eb95a76d026bb39fb1899))
+* **Header/Footer:** rm svg tag ([bf25efb](https://github.com/brunodhr/my-blog/commit/bf25efb25a51a399d5e30816f3626954cd9641fc))
+* **Layout:** removed TransitionPortal to Header ([54f0a32](https://github.com/brunodhr/my-blog/commit/54f0a321771914683e0fb5a082b3ce10df649946))
+
 ### [0.1.6](https://github.com/brunodhr/my-blog/compare/v0.1.5...v0.1.6) (2019-10-10)
 
 

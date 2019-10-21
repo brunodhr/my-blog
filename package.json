@@ -2,7 +2,7 @@
   "name": "gatsby-starter-blog",
   "private": true,
   "description": "My personal blog to study and doc some things",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "Bruno Filipe <brunofiliperamos@hotmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
