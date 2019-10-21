@@ -33,7 +33,7 @@ const Footer = () => (
       </S.Link>
     </S.Container>
     <S.Container>
-      © {new Date().getFullYear()}, Built with
+      © {new Date().getFullYear()}, Built with&nbsp;
       <S.Link href='https://www.gatsbyjs.org/' target='blank'>
         Gatsby
       </S.Link>

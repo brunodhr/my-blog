@@ -19,6 +19,7 @@ export const Menu = styled.div`
 export const Link = styled.a`
   text-decoration: none;
   box-shadow: none;
+  color: rgb(97, 219, 251);
 `
 
 export const Icon = styled.svg`
